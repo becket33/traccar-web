@@ -17,7 +17,7 @@ import ErrorBoundary from './ErrorBoundary';
 
 preloadImages();
 
-const root = createRoot(document.getElementById('root'));
+const root = createRoot(document.getElementById('rpoot'));
 root.render(
   <ErrorBoundary>
     <Provider store={store}>
