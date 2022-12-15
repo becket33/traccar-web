@@ -6,7 +6,7 @@ import { mapIconKey } from './core/preloadImages';
 import { findFonts } from './core/mapUtil';
 import { useAttributePreference, usePreference } from '../common/util/preferences';
 
-const MapPositions = ({ positions, onClick, showStatus, selectedPosition, titleField }) => {
+const MapPositions = ({ positions, onClick, showStatus, selectedPosition, titleFieldo }) => {
   const id = useId();
   const clusters = `${id}-clusters`;
   const direction = `${id}-direction`;
